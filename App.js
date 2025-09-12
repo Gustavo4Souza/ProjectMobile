@@ -1,12 +1,16 @@
-import React from 'react';
-import { SafeAreaView } from 'react-native';
+import React from "react";
+import { Image, View, Text } from "react-native";
 
-import Home from './src/screens/Home';
+import logo from "./src/assets/logo.png";
 
-function App() {
-  return <SafeAreaView>
-    <Home />
-  </SafeAreaView>
+function app() {
+  return (
+    <View>
+      <Image source={logo} />
+      <Text>TEST</Text>
+      <Text>IETSDANDJ</Text>
+    </View>
+  );
 }
 
-export default App;
+export default app;
