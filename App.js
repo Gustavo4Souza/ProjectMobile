@@ -1,14 +1,12 @@
 import React from "react";
-import { Image, View, Text } from "react-native";
+import { View } from "react-native";
 
-import logo from "./src/assets/logo.png";
+import home from "./src/Screans/home";
 
 function app() {
   return (
     <View>
-      <Image source={logo} />
-      <Text>TEST</Text>
-      <Text>IETSDANDJ</Text>
+      <Home />
     </View>
   );
 }
